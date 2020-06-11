@@ -34,7 +34,6 @@ public class PaintingSprayMachineSimulationTest {
         assertThat(paintingSprayMachine.getSpecifications()).contains("Purple Painting");
     }
 
-    @Ignore
     @Test
     public void shouldContainRedSpecification() {
         assertThat(paintingSprayMachine.getSpecifications()).contains("Red Painting");
