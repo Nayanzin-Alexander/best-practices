@@ -43,7 +43,8 @@ public class LSPViolationExample {
 
         if (rectangle.area() != square.area()) {
             System.err.println("Liskov Substitution Principle was violated: "
-                + "Rectangle is not  replaceable by Square");
+                + "Rectangle is not  replaceable by Square\n"
+                + "Non-substitutable code breaks polymorphism");
         }
     }
 }
