@@ -21,8 +21,15 @@ public class FunctionGuidelines {
         + "3. Does it adhere to the DRY principle?\n"
         + "4. Is it easy to test?\n\n";
 
+    public static final String FUNCTION_STRUCTURE_RULES = "\n\nFunction structure rules\n"
+        + "The function should:\n"
+        + " * have single entrance and exit\n"
+        + " * no longer than 100-120 symbols in width\n"
+        + " * switch statement can be replaced with polymorphism or a map data structure\n\n";
+
     public static void main(String[] args) {
         System.out.println(FUNCTIONS_BEST_PRACTISES);
         System.out.println(FUNCTION_ASSESSMENT_QUESTIONS);
+        System.out.println(FUNCTION_STRUCTURE_RULES);
     }
 }
