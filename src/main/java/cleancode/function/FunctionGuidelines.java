@@ -3,7 +3,7 @@ package cleancode.function;
 public class FunctionGuidelines {
 
     public static final String FUNCTIONS_BEST_PRACTISES =
-        "\n\nFunction best practises\n"
+        "Function best practises\n"
             + "Functions should:\n"
             + " * Hardly be 20 lines long\n"
             + " * Only do one thing\n"
@@ -12,20 +12,21 @@ public class FunctionGuidelines {
             + " * Have descriptive names\n"
             + " * Not have side effects\n"
             + " * Use exceptions, not error codes\n"
-            + " * Extract try/catch blocks into functions on their own. Error handling counts as \"one thing\"";
+            + " * Extract try/catch blocks into functions on their own. Error handling counts as \"one thing\"\n\n";
 
     public static final String FUNCTION_ASSESSMENT_QUESTIONS =
-        "\n\nFunction assessment questions\n"
-        + "1. Is it easy to read?\n"
-        + "2. Can you easily navigate the flow of the programm?\n"
-        + "3. Does it adhere to the DRY principle?\n"
-        + "4. Is it easy to test?\n\n";
+        "Function assessment questions\n"
+            + " * Is it easy to read?\n"
+            + " * Can you easily navigate the flow of the programm?\n"
+            + " * Does it adhere to the DRY principle?\n"
+            + " * Is it easy to test?\n\n";
 
-    public static final String FUNCTION_STRUCTURE_RULES = "\n\nFunction structure rules\n"
-        + "The function should:\n"
-        + " * have single entrance and exit\n"
-        + " * no longer than 100-120 symbols in width\n"
-        + " * switch statement can be replaced with polymorphism or a map data structure\n\n";
+    public static final String FUNCTION_STRUCTURE_RULES =
+        "Function structure rules\n"
+            + "The function should:\n"
+            + " * have single entrance and exit\n"
+            + " * no longer than 100-120 symbols in width\n"
+            + " * switch statement can be replaced with polymorphism or a map data structure\n\n";
 
     public static void main(String[] args) {
         System.out.println(FUNCTIONS_BEST_PRACTISES);
